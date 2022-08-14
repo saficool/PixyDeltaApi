@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using PixyDeltaApi.Models;
 
 namespace PixyDeltaApi.Controllers;
 

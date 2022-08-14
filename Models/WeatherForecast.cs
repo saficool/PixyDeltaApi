@@ -1,4 +1,4 @@
-namespace PixyDeltaApi;
+namespace PixyDeltaApi.Models;
 
 public class WeatherForecast
 {
