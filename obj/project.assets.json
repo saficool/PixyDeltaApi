@@ -2401,24 +2401,26 @@
     ]
   },
   "packageFolders": {
-    "/home/safikul/.nuget/packages/": {}
+    "C:\\Users\\islam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/safikul/ITServe/PixyDeltaProject/PixyDeltaApi/PixyDeltaApi.csproj",
+      "projectUniqueName": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
       "projectName": "PixyDeltaApi",
-      "projectPath": "/home/safikul/ITServe/PixyDeltaProject/PixyDeltaApi/PixyDeltaApi.csproj",
-      "packagesPath": "/home/safikul/.nuget/packages/",
-      "outputPath": "/home/safikul/ITServe/PixyDeltaProject/PixyDeltaApi/obj/",
+      "projectPath": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
+      "packagesPath": "C:\\Users\\islam\\.nuget\\packages\\",
+      "outputPath": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/safikul/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2485,7 +2487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
