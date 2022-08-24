@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
+using PixyDeltaApi.Hubs;
 using PixyDeltaApi.Models;
 
 namespace PixyDeltaApi.Controllers
@@ -9,9 +11,11 @@ namespace PixyDeltaApi.Controllers
     public class NotesController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
-        public NotesController(ApplicationDbContext context)
+        private readonly IHubContext<NotesHub> _hubContext;
+        public NotesController(ApplicationDbContext context, IHubContext<NotesHub> hubContext)
         {
             _context = context;
+            _hubContext = hubContext;
         }
 
         [HttpGet]
@@ -34,7 +38,7 @@ namespace PixyDeltaApi.Controllers
             {
                 return BadRequest(ModelState);
             }
-            Notes notes = new Notes
+            Notes note = new Notes
             {
                 Id = Guid.NewGuid().ToString(),
                 Title = model.Title,
@@ -46,10 +50,11 @@ namespace PixyDeltaApi.Controllers
                 UpdateddBy = model.UpdateddBy,
                 UpdatedDate = model.UpdatedDate
             };
-            _context.Notes.Add(notes);
+            _context.Notes.Add(note);
             await _context.SaveChangesAsync();
-            return Ok(notes);
+            return Ok(note);
         }
+
 
         [HttpPut]
         [Route("UpdateNote")]
@@ -91,6 +96,5 @@ namespace PixyDeltaApi.Controllers
             await _context.SaveChangesAsync();
             return Ok(notes);
         }
-
     }
 }

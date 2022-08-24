@@ -12,7 +12,7 @@ using PixyDeltaApi.Models;
 namespace PixyDeltaApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220814055841_Initial")]
+    [Migration("20220823174714_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

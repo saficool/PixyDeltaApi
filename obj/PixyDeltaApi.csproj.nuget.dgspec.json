@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj": {}
+    "D:\\Micron\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj": {}
   },
   "projects": {
-    "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj": {
+    "D:\\Micron\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
+        "projectUniqueName": "D:\\Micron\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
         "projectName": "PixyDeltaApi",
-        "projectPath": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
+        "projectPath": "D:\\Micron\\PixyDeltaProject\\PixyDeltaApi\\PixyDeltaApi.csproj",
         "packagesPath": "C:\\Users\\islam\\.nuget\\packages\\",
-        "outputPath": "D:\\ITServe\\PixyDeltaProject\\PixyDeltaApi\\obj\\",
+        "outputPath": "D:\\Micron\\PixyDeltaProject\\PixyDeltaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\islam\\AppData\\Roaming\\NuGet\\NuGet.Config",
